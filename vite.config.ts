@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: "/dice-roller-app/",
+  base: "/dice-roller-app/",
   plugins: [react(), tailwindcss()],
 });
